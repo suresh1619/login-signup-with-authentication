@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - E-Commerce Site</title>
+    <link rel="stylesheet" href="/static/home.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Our E-Commerce Site</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="{%url 'login' %}">Login</a> |
+            <a href="{%url 'signup' %}">Signup</a> |
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+
+    <div class="featured-products">
+        <h2>Featured Products</h2>
+        <!-- Example product entries, these should be replaced with actual data -->
+        <div class="product">
+            <img src="/static/dhruv rathee.png" alt="Example Product">
+            <h3>Example Product</h3>
+            <p>This is a description of the example product. It can be quite detailed.</p>
+            <p>$19.99</p>
+            <a href="#">View Details</a>
+        </div>
+        <!-- Repeat for more products -->
+    </div>
+
+    <div class="categories">
+        <h2>Categories</h2>
+        <!-- Example category entries, these should be replaced with actual data -->
+        <div class="category">
+            <h3>Example Category</h3>
+            <p>This is a description of the example category. It provides a brief overview.</p>
+            <a href="#">Shop Now</a>
+        </div>
+        <!-- Repeat for more categories -->
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 E-Commerce Site. All rights reserved.</p>
+    </div>
+</body>
+</html>
