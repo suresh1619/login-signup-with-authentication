@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pen',            # Added the missing comma here
         'USER': 'root',
-        'PASSWORD': 'Suresh@2001',
+        'PASSWORD': '#########',
         'HOST': 'localhost',      # Set to your MySQL server's address
         'PORT': '3306',
     }
